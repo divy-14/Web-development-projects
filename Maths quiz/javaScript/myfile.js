@@ -73,8 +73,8 @@ for(i=1; i<5; i++){
             generateQA();
         }else{
         //wrong answer
-          
-
+            score--;
+            document.getElementById("scorevalue").innerHTML = score; // updated now for every wrong answer the score will be deducted
             hide("correct");
             show("wrong");
             setTimeout(function(){
