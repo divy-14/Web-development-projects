@@ -1,4 +1,5 @@
 //javascript.js
+
 var playing = false;
 var score;
 var action;
