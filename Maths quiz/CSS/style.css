@@ -3,8 +3,7 @@ html
   height:100%;
   background:radial-gradient(circle,#fff,#ccc);
 }
-
-  #container{
+#container{
   height: 400px;
   width: 550px;
   background-color: #7286b5;
